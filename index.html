@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njuguna Devs - Custom Web Solutions for Kenyan Businesses</title>
+    <link rel="icon" type="image/png" href="Images/Njuguna Devs logo .png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons (fallback) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Images/Njuguna Devs logo .png" alt="Njuguna Devs Logo" class="logo-img" style="height:72px;width:auto;">
+                <span class="logo-text">Njuguna Devs</span>
+            </div>
+            
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Navigation links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="nav-whatsapp">
+                    <a href="https://wa.me/254700000000" class="whatsapp-nav-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Chat Now
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254700000000" class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="floating-tooltip">Chat with us</span>
+    </a>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">Custom <span class="highlight">Web Solutions</span> for Kenyan Businesses</h1>
+                <p class="hero-subtext">We build websites and tools that actually work for your business—no templates, no confusion, just practical results.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn primary">Get Your Free Consultation <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://wa.me/254700000000" class="btn whatsapp-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="Images/Njuguna Devs logo .png" alt="Njuguna Devs Logo" style="height:180px;width:auto;display:block;margin:0 auto 16px auto;">
+                <div class="experience-badge">
+                    <span class="exp-years">3+</span>
+                    <span class="exp-text">Years Experience</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section (Grouped into 5 Main Services) -->
+        <section class="section services-section" id="services">
+            <div class="section-header">
+                <span class="section-subtitle">What We Offer</span>
+                <h2 class="section-title">Web Solutions Built for Your Business</h2>
+                <p class="section-desc">No templates. No middlemen. Just direct, practical websites and tools that solve real business problems.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1: Custom Website Development -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>1. Custom Website Development</h3>
+                    <p>Modern, responsive websites built with HTML, CSS, JavaScript, and React. Perfect for businesses that need a fast, clean online presence.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Business websites</li>
+                        <li><i class="fas fa-check"></i> Landing pages</li>
+                        <li><i class="fas fa-check"></i> Portfolio sites</li>
+                        <li><i class="fas fa-check"></i> React web apps</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2: Website Design & UI Development -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>2. Website Design & UI Development</h3>
+                    <p>Professional interfaces from Figma designs. Interactive, responsive layouts that look great on all devices.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Figma to website</li>
+                        <li><i class="fas fa-check"></i> Responsive design</li>
+                        <li><i class="fas fa-check"></i> UI animations</li>
+                        <li><i class="fas fa-check"></i> Interface improvements</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3: Website Maintenance & Bug Fixing -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>3. Website Maintenance & Bug Fixing</h3>
+                    <p>Fix errors, update features, and keep your site running smoothly. We handle layout fixes, debugging, and performance improvements.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Bug fixes</li>
+                        <li><i class="fas fa-check"></i> Performance optimization</li>
+                        <li><i class="fas fa-check"></i> Content updates</li>
+                        <li><i class="fas fa-check"></i> Security checks</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4: Hosting, Domain & Deployment -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>4. Hosting, Domain & Deployment</h3>
+                    <p>Full setup of domains, hosting, and deployment. SSL certificates, DNS configuration, and website migration included.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Domain setup</li>
+                        <li><i class="fas fa-check"></i> Hosting configuration</li>
+                        <li><i class="fas fa-check"></i> SSL certificates</li>
+                        <li><i class="fas fa-check"></i> Website migration</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5: Integrations & Automation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>5. Integrations & Automation</h3>
+                    <p>WhatsApp chat integration, contact forms, and connecting your site to the tools you use every day.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> WhatsApp integration</li>
+                        <li><i class="fas fa-check"></i> Contact forms</li>
+                        <li><i class="fas fa-check"></i> Payment gateways</li>
+                        <li><i class="fas fa-check"></i> API connections</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Additional Services Accordion -->
+            <div class="additional-services">
+                <button class="accordion-toggle" id="toggleAdditional">
+                    <span>View Additional Services</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="additional-grid" id="additionalServices">
+                    <div class="additional-item">
+                        <i class="fas fa-wordpress"></i>
+                        <span>WordPress Development</span>
+                    </div>
+                    <div class="additional-item">
+                        <i class="fas fa-database"></i>
+                        <span>Database Setup (SQL)</span>
+                    </div>
+                    <div class="additional-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Website Optimization</span>
+                    </div>
+                    <div class="additional-item">
+                        <i class="fas fa-search"></i>
+                        <span>Website Research & Planning</span>
+                    </div>
+                    <div class="additional-item">
+                        <i class="fas fa-robot"></i>
+                        <span>AI-Assisted Content Creation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section with YouTube Videos -->
+        <section class="section projects-section" id="projects">
+            <div class="section-header">
+                <span class="section-subtitle">Our Work</span>
+                <h2 class="section-title">Recent Projects</h2>
+                <p class="section-desc">See our solutions in action. Click to watch the video walkthroughs.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Kilimani Bistro Caterers -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jKdm5EwTPR4?si=08lnHKh2qEzWRtQK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kilimani Bistro Caterers</h3>
+                        <p class="project-type">Restaurant Website & Menu Display</p>
+                        <p class="project-desc">Complete website solution for a catering business. Improved online visibility and customer engagement through a clean, responsive design.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://youtu.be/jKdm5EwTPR4" class="project-link" target="_blank">
+                            <i class="fab fa-youtube"></i> Watch Video
+                        </a>
+                    </div>
+                </div>
+
+                <!-- E-commerce Products UI -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DEkXigYIR00?si=A61zluUmclwJzalY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Products UI</h3>
+                        <p class="project-type">Product Catalog Interface</p>
+                        <p class="project-desc">Modern, responsive product display interface with smooth interactions. Perfect for online stores and product showcases.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>UI Design</span>
+                        </div>
+                        <a href="https://youtu.be/DEkXigYIR00" class="project-link" target="_blank">
+                            <i class="fab fa-youtube"></i> Watch Video
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Life Lift Hub -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gMqZmkU4PW0?si=Q9iti4PmcnOH2fyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Life Lift Hub</h3>
+                        <p class="project-type">Wellness & Fitness Platform</p>
+                        <p class="project-desc">Engaging website for a wellness brand with clean visuals and user-friendly navigation.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://youtu.be/gMqZmkU4PW0" class="project-link" target="_blank">
+                            <i class="fab fa-youtube"></i> Watch Video
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="section why-section" id="why-us">
+            <div class="why-container">
+                <div class="why-content">
+                    <span class="section-subtitle">Why Njuguna Devs</span>
+                    <h2 class="section-title">You Work Directly With <span class="highlight">Cyrus Njuguna</span></h2>
+                    <p class="why-description">No faceless agency. No project managers slowing things down. You get direct access to the developer building your solution.</p>
+                    
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                            <div>
+                                <h4>Direct Communication</h4>
+                                <p>Chat directly on WhatsApp with the person building your site. No middlemen, no confusion.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <div>
+                                <h4>Custom-Built Solutions</h4>
+                                <p>Every line of code is written specifically for your business. No templates, no cookie-cutter designs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-simple"></i>
+                            </div>
+                            <div>
+                                <h4>Business-First Approach</h4>
+                                <p>We focus on what actually helps your business grow, not just making things look pretty.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-hand-holding-heart"></i>
+                            </div>
+                            <div>
+                                <h4>Ongoing Support</h4>
+                                <p>Even after launch, we're here to help. Fixes, updates, and advice whenever you need it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="why-cta">
+                        <a href="https://wa.me/254700000000" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Chat With Cyrus Directly
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="why-image">
+                    <img src="/Images/Njuguna Devs logo .png" alt="Njuguna Devs Logo" style="height:90px;width:auto;display:block;margin:0 auto 12px auto;">
+                    <div class="experience-card">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <strong>3+ Years</strong>
+                            <span>Development Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section with WhatsApp Form -->
+        <section class="section contact-section" id="contact">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Let's Build Your Solution</h2>
+                <p class="section-desc">Tell us about your project and we'll get back to you within 24 hours.</p>
+            </div>
+
+            <div class="contact-container">
+                <!-- Contact Form (Sends to WhatsApp) -->
+                <div class="contact-form-wrapper">
+                    <form id="whatsappForm" class="contact-form">
+                        <h3>Send us a message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="07XX XXX XXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="Custom Website">Custom Website</option>
+                                <option value="Website Design">Website Design</option>
+                                <option value="Maintenance">Maintenance & Bug Fixing</option>
+                                <option value="Hosting">Hosting & Domain</option>
+                                <option value="Integrations">Integrations & Automation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your business and what you need..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary submit-btn">
+                            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Quick Contact</h3>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <a href="https://wa.me/254700000000">+254 700 000 000</a>
+                                <span class="info-note">Usually replies within 1 hour</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="far fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:cyrus@njugunadevs.com">cyrus@njugunadevs.com</a>
+                                <span class="info-note">24-48 hour response</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Nairobi, Kenya</span>
+                                <span class="info-note">Available for remote work</span>
+                            </div>
+                        </div>
+
+                        <div class="info-divider"></div>
+
+                        <h4>Common Questions</h4>
+                        <div class="faq-mini">
+                            <div class="faq-item">
+                                <strong>How much does a website cost?</strong>
+                                <p>Starts from KES 15,000 depending on complexity. Get a free quote.</p>
+                            </div>
+                            <div class="faq-item">
+                                <strong>How long does it take?</strong>
+                                <p>Basic sites: 1-2 weeks. Complex projects: 3-4 weeks.</p>
+                            </div>
+                            <div class="faq-item">
+                                <strong>Do you offer maintenance?</strong>
+                                <p>Yes! Monthly and one-time maintenance packages available.</p>
+                            </div>
+                        </div>
+
+                        <div class="guarantee-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <strong>100% Satisfaction Guaranteed</strong>
+                                <span>We're not happy until you're happy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section testimonials">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Cyrus built our restaurant website from scratch. The communication was excellent and he understood exactly what we needed. Highly recommend!"</p>
+                    <div class="client">
+                        <strong>Sarah Kimani</strong>
+                        <span>Kilimani Bistro</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Quick, professional, and actually listens to what you want. Fixed our old website and set up hosting. Great work!"</p>
+                    <div class="client">
+                        <strong>James Otieno</strong>
+                        <span>Life Lift Hub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="/Images/WhatsApp Image 2026-03-02 at.jpeg" alt="Njuguna Devs Logo" class="footer-logo" style="height:72px;width:auto;">
+                    <p>Building custom web solutions for Kenyan businesses. Practical, scalable, and focused on results.</p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#why-us">Why Us</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Main Services</h4>
+                    <a href="#services">Custom Websites</a>
+                    <a href="#services">UI Development</a>
+                    <a href="#services">Maintenance</a>
+                    <a href="#services">Hosting & Domain</a>
+                    <a href="#services">Integrations</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <a href="https://wa.me/254700000000"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="mailto:cyrus@njugunadevs.com"><i class="far fa-envelope"></i> Email</a>
+                    <span><i class="fas fa-phone"></i> +254 700 000 000</span>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Njuguna Devs. Founded by Cyrus Njuguna. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
